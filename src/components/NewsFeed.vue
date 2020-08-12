@@ -21,10 +21,4 @@ export default {
 
 <style lang="css" scoped>
 
-/* .news {
-  text-align: left;
-  width: 96%;
-  border-style: solid;
-  padding: 10px
-} */
 </style>

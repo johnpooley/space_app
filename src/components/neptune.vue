@@ -62,7 +62,7 @@ export default {
   },
   methods: {
     goToMoon(){
-      this.$router.push({path:'/moon/'+this.selectedMoon})
+      this.$router.push({path:'/moon/'+this.selectedMoon.normalize("NFD").replace(/[\u0300-\u036f]/g, "")})
     },
 
       playAudio: function(event){
