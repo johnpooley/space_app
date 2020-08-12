@@ -66,7 +66,7 @@ export default {
       this.selectedPlanet = planet;
     })
 
-    fetch('http://api.open-notify.org/astros.json')
+    fetch('https://cors-anywhere.herokuapp.com/https://www.howmanypeopleareinspacerightnow.com/space.json')
     .then(res => res.json())
     .then(peopleInSpace => this.peopleInSpace = peopleInSpace)
 

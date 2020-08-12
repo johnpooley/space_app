@@ -4,7 +4,7 @@
 
     <div v-if="peopleInSpace" v-for="person in peopleInSpace.people">
       <h2>Name: {{ person.name }}</h2>
-      <h2>Craft: {{ person.craft }}</h2>
+      <h2>Title: {{ person.title }}</h2>
     </div>
   </div>
 
