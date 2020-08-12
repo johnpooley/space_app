@@ -1,10 +1,10 @@
 <template lang="html">
   <div id="app">
-    <div class="news" v-if="news" v-for="things in news.articles">
-      <h1>{{ things.source.name }}</h1>
-      <h2>{{ things.title }}</h2>
-      <img :src="things.urlToImage" :alt="things.urlToImage" :width = "300" :height = "200">
-      <p>{{ things.description }}</p>
+    <div class="news">
+      <h1>Latest SpaceX Mission</h1>
+      <h2>{{ news.name }}</h2>
+      <img :src="news.links.patch.small":width = "400" :height = "400">
+      <p>{{ news.details }}</p>
       <br>
     </div>
   </div>

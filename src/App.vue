@@ -3,7 +3,7 @@
     <head>
       <link rel = "stylesheet"
    type = "text/css"
-   href = "./public/style.css" />
+   href = "../public/style.css" />
    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
  </head>
       <nav>
